@@ -84,7 +84,7 @@
                 }
                 .child-2 {
                     margin-top: 20px;
-                    max-width: 528px;
+                    width: 528px;
                     display: flex;
                     gap: 28px;
                     .inner-child {
@@ -142,6 +142,13 @@
                     }
                 }
             }
+            .card-2 {
+                img {
+                    margin-top: -20px;
+                    max-width: 411.46px;
+                    max-height: 666.58px;
+                }
+            }
         }
     }
 }
@@ -178,6 +185,7 @@
                 }
             }
             .card-3 {
+                scroll-snap-align: inherit;
                 display: flex;
                 justify-content: center;
                 margin-top: 24px;
@@ -569,6 +577,9 @@
             .card {
                 margin-left: 90px;
                 padding-top: 70px;
+                img {
+                    max-width: 269px;
+                }
             }
             .card-2 {
                 margin-top: 50px;
@@ -658,6 +669,246 @@
                     position: absolute;
                     top: -30px;
                     left: 246px;
+                }
+            }
+        }
+    }
+    .section-2 {
+        .container {
+            .row {
+                margin-left: 10px;
+                gap: 0px;
+                .card {
+                    gap: 16px;
+                    .child {
+                        font-weight: 800;
+                        font-size: 22px;
+                        line-height: 40px;
+                        /* identical to box height, or 125% */
+                        /* black */
+                        color: #1D2530;
+                    }
+                    .child-2 {
+                        width: 367px;
+                        gap: 19px;
+                        img {
+                            width: 38.46px;
+                        }
+                        .inner-child {
+                            h3 {
+                                font-weight: 600;
+                                font-size: 20px;
+                                line-height: 32px;
+                                /* identical to box height, or 160% */
+                                font-feature-settings: 'salt' on, 'liga' off;
+                                /* black */
+                                color: #1D2530;
+                            }
+                            p {
+                                max-width: 354px;
+                                font-weight: 400;
+                                font-size: 16px;
+                                line-height: 26px;
+                                /* or 162% */
+                                font-feature-settings: 'salt' on, 'liga' off;
+                                /* black */
+                                color: #1D2530;
+                            }
+                        }
+                    }
+                    .child-3 {
+                        img {
+                            width: 38.46px;
+                        }
+                        .inner-child {
+                            h3 {
+                                font-weight: 600;
+                                font-size: 20px;
+                                line-height: 32px;
+                                /* identical to box height, or 160% */
+                                font-feature-settings: 'salt' on, 'liga' off;
+                                /* black */
+                                color: #1D2530;
+                            }
+                            p {
+                                max-width: 354px;
+                                font-weight: 400;
+                                font-size: 16px;
+                                line-height: 26px;
+                                /* or 162% */
+                                font-feature-settings: 'salt' on, 'liga' off;
+                                /* black */
+                                color: #1D2530;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .section-3 {
+        .container {
+            .row {
+                gap: 8px;
+                .card {
+                    h3 {
+                        font-weight: 800;
+                        font-size: 32px;
+                        line-height: 40px;
+                        /* identical to box height, or 125% */
+                        text-align: center;
+                        font-feature-settings: 'salt' on, 'liga' off;
+                        /* black */
+                        color: #1D2530;
+                    }
+                }
+                .card-2 {
+                    p {
+                        font-weight: 700;
+                        font-size: 20px;
+                        line-height: 28px;
+                        /* identical to box height, or 140% */
+                        font-feature-settings: 'salt' on, 'liga' off;
+                        /* black */
+                        color: #1D2530;
+                    }
+                }
+            }
+        }
+    }
+    .section-4 {
+        .container {
+            .row {
+                .card {
+                    font-weight: 800;
+                    font-size: 32px;
+                    line-height: 40px;
+                    /* or 125% */
+                    text-align: center;
+                    font-feature-settings: 'salt' on, 'liga' off;
+                    /* black */
+                    color: #1D2530;
+                }
+                .card-2 {
+                    margin-left: 15px;
+                    justify-content: center;
+                    .child-2 {
+                        position: absolute;
+                        left: 260px;
+                        top: 2px;
+                    }
+                    .child-3 {}
+                    .vector-1 {
+                        display: none;
+                    }
+                    .vector-2 {
+                        display: none;
+                    }
+                    .vector-3 {
+                        display: none;
+                    }
+                    .vector-4 {
+                        display: none;
+                    }
+                    .logo-position {
+                        display: none;
+                    }
+                    .logo-position2 {
+                        display: none;
+                    }
+                }
+            }
+            .phone-position {
+                position: absolute;
+                width: 202.3px;
+                height: 471.83px;
+                left: 50px;
+                top: 360px;
+            }
+            .phone-position-2 {
+                position: absolute;
+                width: 202.3px;
+                height: 471.83px;
+                left: 290px;
+                top: 360px;
+            }
+            .phone-position-3 {
+                position: absolute;
+                width: 202.3px;
+                height: 471.83px;
+                left: 530px;
+                top: 360px;
+            }
+        }
+    }
+    .section-5 {
+        .container {
+            .row {
+                .card {
+                    h2 {
+                        font-weight: 800;
+                        font-size: 32px;
+                        line-height: 40px;
+                        /* identical to box height, or 125% */
+                        font-feature-settings: 'salt' on, 'liga' off;
+                        /* black */
+                        color: #1D2530;
+                    }
+                }
+            }
+            .row-2 {
+                position: relative;
+                margin: 12px;
+                gap: 0px;
+                .card {
+                    img {
+                        width: 252px;
+                    }
+                }
+                .card-2 {
+                    margin-right: 119px;
+                    h1 {
+                        font-weight: 800;
+                        font-size: 24px;
+                        line-height: 32px;
+                        /* or 133% */
+                        font-feature-settings: 'salt' on, 'liga' off;
+                        /* Default / White */
+                        color: #FFFFFF;
+                    }
+                    .form {
+                        .twodiv {
+                            padding: 58px 0;
+                            margin-top: -25px;
+                            display: flex;
+                            align-items: center;
+                            .email {
+                                padding: 14px 16px;
+                                font-weight: 400;
+                                font-size: 15px;
+                                line-height: 24px;
+                                /* identical to box height, or 160% */
+                                font-feature-settings: 'salt' on, 'liga' off;
+                                /* Text / Gray 800 */
+                                color: #474A57;
+                                background: #F4F5F7;
+                                border-radius: 5px 0px 0px 5px;
+                                border: none;
+                            }
+                            .question_button {
+                                padding: 14px 24px;
+                                font-weight: 700;
+                                font-size: 14px;
+                                line-height: 20px;
+                                /* identical to box height, or 143% */
+                                font-feature-settings: 'salt' on, 'liga' off;
+                                /* Default / White */
+                                color: #FFFFFF;
+                                background: #18191F;
+                                border-radius: 0px 5px 5px 0px;
+                            }
+                        }
+                    }
                 }
             }
         }

@@ -89,3 +89,30 @@
         }
     }
 }
+
+@media screen and (max-width: 768px) {
+    .footer {
+        .container {
+            .row {
+                justify-content: flex-start;
+                gap: 20px;
+                padding: 50px 0;
+                .card {
+                    margin-left: -20px;
+                }
+                .card-2 {
+                    margin-left: 155px;
+                }
+            }
+        }
+    }
+    .footer-2 {
+        .container {
+            .row {
+                .card {
+                    margin-left: 0px;
+                }
+            }
+        }
+    }
+}
