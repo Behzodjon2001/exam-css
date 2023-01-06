@@ -1,0 +1,665 @@
+.section {
+    background: rgba(242, 247, 255, 0.5);
+    backdrop-filter: blur(50px);
+    .container {
+        padding: 100px 0px;
+        margin-left: 190px;
+        .row {
+            display: flex;
+            position: relative;
+            .card {
+                display: flex;
+                flex-direction: column;
+                gap: 24px;
+                h1 {
+                    max-width: 380px;
+                    font-weight: 800;
+                    font-size: 42px;
+                    line-height: 60px;
+                    /* or 120% */
+                    font-feature-settings: 'salt' on, 'liga' off;
+                    /* violet */
+                    color: black;
+                    .moviy {
+                        color: #685ED6;
+                    }
+                }
+                p {
+                    max-width: 482px;
+                    font-weight: 400;
+                    font-size: 24px;
+                    line-height: 34px;
+                    /* or 142% */
+                    /* black */
+                    color: #1D2530;
+                    .moviy {
+                        color: #685ED6;
+                    }
+                }
+                .podkluchit {
+                    max-width: 168px;
+                    background: #685ED6;
+                    /* btn sdw */
+                    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.07);
+                    border-radius: 6px;
+                    font-weight: 700;
+                    font-size: 18px;
+                    line-height: 24px;
+                    /* identical to box height, or 133% */
+                    text-align: center;
+                    font-feature-settings: 'salt' on, 'liga' off;
+                    /* Default / White */
+                    color: #FFFFFF;
+                    padding: 12px 32px;
+                    border: none;
+                }
+            }
+            .card-2 {
+                position: absolute;
+                top: -30px;
+                left: 386px;
+            }
+        }
+    }
+}
+
+.section-2 {
+    .container {
+        .row {
+            margin-top: 250px;
+            margin-left: 50px;
+            display: flex;
+            gap: 76px;
+            .card {
+                display: flex;
+                flex-direction: column;
+                gap: 49px;
+                .child {
+                    font-weight: 800;
+                    font-size: 29px;
+                    line-height: 32px;
+                    /* identical to box height, or 67% */
+                    /* black */
+                    color: #1D2530;
+                }
+                .child-2 {
+                    margin-top: 20px;
+                    max-width: 528px;
+                    display: flex;
+                    gap: 28px;
+                    .inner-child {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        gap: 8px;
+                        h3 {
+                            font-weight: 600;
+                            font-size: 24px;
+                            line-height: 32px;
+                            /* identical to box height, or 133% */
+                            font-feature-settings: 'salt' on, 'liga' off;
+                            /* black */
+                            color: #1D2530;
+                        }
+                        p {
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 26px;
+                            /* or 162% */
+                            font-feature-settings: 'salt' on, 'liga' off;
+                            /* black */
+                            color: #1D2530;
+                        }
+                    }
+                }
+                .child-3 {
+                    max-width: 428px;
+                    display: flex;
+                    gap: 28px;
+                    .inner-child {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        gap: 8px;
+                        h3 {
+                            font-weight: 600;
+                            font-size: 24px;
+                            line-height: 32px;
+                            /* identical to box height, or 133% */
+                            font-feature-settings: 'salt' on, 'liga' off;
+                            /* black */
+                            color: #1D2530;
+                        }
+                        p {
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 26px;
+                            /* or 162% */
+                            font-feature-settings: 'salt' on, 'liga' off;
+                            /* black */
+                            color: #1D2530;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.section-3 {
+    .container {
+        .row {
+            margin-top: 180px;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            gap: 16px;
+            .card {
+                h3 {
+                    font-weight: 800;
+                    font-size: 46px;
+                    line-height: 64px;
+                    /* identical to box height, or 139% */
+                    text-align: center;
+                    font-feature-settings: 'salt' on, 'liga' off;
+                    /* black */
+                    color: #1D2530;
+                }
+            }
+            .card-2 {
+                p {
+                    font-weight: 700;
+                    font-size: 24px;
+                    line-height: 32px;
+                    /* identical to box height, or 133% */
+                    font-feature-settings: 'salt' on, 'liga' off;
+                    /* black */
+                    color: #1D2530;
+                }
+            }
+            .card-3 {
+                display: flex;
+                justify-content: center;
+                margin-top: 24px;
+                gap: 32px;
+                .child {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 32px;
+                    width: 350px;
+                    background: #FCFEFF;
+                    /* btn sdw */
+                    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.07);
+                    border-radius: 6px;
+                    .inner0 {
+                        background: rgba(104, 94, 214, 0.05);
+                        font-weight: 800;
+                        font-size: 24px;
+                        line-height: 48px;
+                        /* identical to box height, or 200% */
+                        color: #685ED6;
+                    }
+                    .probniy {
+                        margin-left: 50px;
+                        margin-top: 14px;
+                        max-width: 263px;
+                        font-weight: 700;
+                        font-size: 21px;
+                        line-height: 40px;
+                        /* or 143% */
+                        text-align: center;
+                        /* black */
+                        color: #1D2530;
+                    }
+                    .mesyas {
+                        font-weight: 500;
+                        font-size: 20px;
+                        line-height: 30px;
+                        /* identical to box height, or 150% */
+                        text-align: center;
+                        /* black */
+                        color: #1D2530;
+                    }
+                    .inner {
+                        margin-top: 14px;
+                        .podkluchit {
+                            background: #685ED6;
+                            /* btn sdw */
+                            box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.07);
+                            border-radius: 6px;
+                            text-align: center;
+                            font-feature-settings: 'salt' on, 'liga' off;
+                            /* Default / White */
+                            color: #FFFFFF;
+                            padding: 12px 66px;
+                            border: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.section-4 {
+    background: rgba(242, 247, 255, 0.5);
+    backdrop-filter: blur(50px);
+    .container {
+        position: relative;
+        .row {
+            .card {
+                margin-top: 100px;
+                font-weight: 800;
+                font-size: 40px;
+                line-height: 64px;
+                /* identical to box height, or 139% */
+                font-feature-settings: 'salt' on, 'liga' off;
+                /* black */
+                color: #1D2530;
+                text-align: center;
+            }
+            .card-2 {
+                position: relative;
+                margin-left: 30px;
+                width: 1200px;
+                margin-top: 56px;
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-start;
+                gap: 4px;
+                .child {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 4px;
+                    span {
+                        text-align: center;
+                        width: 72px;
+                        height: 72px;
+                        background: #F1E4FF;
+                        border-radius: 50%;
+                        font-weight: 700;
+                        font-size: 30px;
+                        line-height: 30px;
+                        /* or 100% */
+                        padding: 10px 20px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        color: #685ED6;
+                        margin-left: 75px;
+                    }
+                    h5 {
+                        margin-top: 16px;
+                        font-weight: 700;
+                        font-size: 18px;
+                        line-height: 28px;
+                        /* identical to box height, or 156% */
+                        font-feature-settings: 'salt' on, 'liga' off;
+                        /* black */
+                        color: #1D2530;
+                        text-align: center;
+                    }
+                    p {
+                        max-width: 476px;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 26px;
+                        /* or 162% */
+                        text-align: center;
+                        font-feature-settings: 'salt' on, 'liga' off;
+                        /* black */
+                        color: #1D2530;
+                    }
+                }
+                .child-2 {
+                    position: absolute;
+                    left: 483px;
+                    top: 78px;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 4px;
+                    span {
+                        text-align: center;
+                        width: 72px;
+                        height: 72px;
+                        background: #F1E4FF;
+                        border-radius: 50%;
+                        font-weight: 700;
+                        font-size: 30px;
+                        line-height: 30px;
+                        /* or 100% */
+                        padding: 10px 20px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        color: #685ED6;
+                        margin-left: 75px;
+                    }
+                    h5 {
+                        margin-top: 16px;
+                        font-weight: 700;
+                        font-size: 18px;
+                        line-height: 28px;
+                        /* identical to box height, or 156% */
+                        font-feature-settings: 'salt' on, 'liga' off;
+                        /* black */
+                        color: #1D2530;
+                        text-align: center;
+                    }
+                    p {
+                        max-width: 214px;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 26px;
+                        /* or 162% */
+                        text-align: center;
+                        font-feature-settings: 'salt' on, 'liga' off;
+                        /* black */
+                        color: #1D2530;
+                    }
+                }
+                .child-3 {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 4px;
+                    margin-left: 760px;
+                    span {
+                        text-align: center;
+                        width: 72px;
+                        height: 72px;
+                        background: #F1E4FF;
+                        border-radius: 50%;
+                        font-weight: 700;
+                        font-size: 30px;
+                        line-height: 30px;
+                        /* or 100% */
+                        padding: 10px 20px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        color: #685ED6;
+                        margin-left: 75px;
+                    }
+                    h5 {
+                        margin-top: 16px;
+                        font-weight: 700;
+                        font-size: 18px;
+                        line-height: 28px;
+                        /* identical to box height, or 156% */
+                        font-feature-settings: 'salt' on, 'liga' off;
+                        /* black */
+                        color: #1D2530;
+                        text-align: center;
+                    }
+                    p {
+                        max-width: 476px;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 26px;
+                        /* or 162% */
+                        text-align: center;
+                        font-feature-settings: 'salt' on, 'liga' off;
+                        /* black */
+                        color: #1D2530;
+                    }
+                }
+                .vector-1 {
+                    position: absolute;
+                    left: 15.18%;
+                    right: 72.49%;
+                    top: 15.06%;
+                    bottom: 70.63%;
+                }
+                .vector-2 {
+                    position: absolute;
+                    left: 33.33%;
+                    right: 55.28%;
+                    top: 40.83%;
+                    bottom: 45.51%;
+                }
+                .vector-3 {
+                    position: absolute;
+                    left: 55.01%;
+                    right: 32.75%;
+                    top: 10.17%;
+                    bottom: 51.18%;
+                }
+                .vector-4 {
+                    position: absolute;
+                    left: 74.44%;
+                    right: 15.94%;
+                    top: 28.33%;
+                    bottom: 65.18%;
+                }
+                .logo-position {
+                    position: absolute;
+                    left: 25.8%;
+                    right: 61.79%;
+                    top: 21.67%;
+                    bottom: 66.67%;
+                }
+                .logo-position2 {
+                    position: absolute;
+                    left: 64.9%;
+                    right: 20.59%;
+                    top: 6.93%;
+                    bottom: 74.75%;
+                }
+            }
+        }
+        .phone-position {
+            position: absolute;
+            width: 237px;
+            height: 471.83px;
+            left: 70px;
+            top: 360px;
+        }
+        .phone-position-2 {
+            position: absolute;
+            width: 237px;
+            height: 471.83px;
+            left: 536px;
+            top: 410px;
+        }
+        .phone-position-3 {
+            position: absolute;
+            width: 237px;
+            height: 471.83px;
+            left: 1050px;
+            top: 360px;
+        }
+    }
+}
+
+.section-5 {
+    background: rgba(242, 247, 255, 0.5);
+    margin-top: 670px;
+    .container {
+        .row {
+            .card {
+                font-weight: 800;
+                font-size: 46px;
+                line-height: 64px;
+                /* identical to box height, or 139% */
+                font-feature-settings: 'salt' on, 'liga' off;
+                /* black */
+                color: #1D2530;
+                text-align: center;
+            }
+            .card-2 {
+                position: relative;
+                display: flex;
+                justify-content: space-around;
+                gap: 30px;
+                margin-top: 48px;
+                border-radius: 6px;
+                .child {
+                    box-shadow: 1px 1px 11px rgb(84, 78, 78);
+                    padding: 32px 32px 56px 32px;
+                    background: white;
+                    border-radius: 6px;
+                    h5 {
+                        font-weight: 500;
+                        font-size: 18px;
+                        line-height: 28px;
+                        /* identical to box height, or 156% */
+                        text-align: center;
+                        font-feature-settings: 'salt' on, 'liga' off;
+                        /* Text / Gray 900 */
+                        color: #18191F;
+                    }
+                    p {
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 24px;
+                        /* or 171% */
+                        text-align: center;
+                        font-feature-settings: 'salt' on, 'liga' off;
+                        /* Text / Gray 900 */
+                        color: #18191F;
+                    }
+                }
+                .uchburchar {
+                    position: absolute;
+                    left: 300px;
+                    top: 200px;
+                    background-color: white;
+                    width: 24px;
+                    height: 24px;
+                    rotate: 45deg;
+                }
+                .uchburchar2 {
+                    position: absolute;
+                    left: 900px;
+                    top: 200px;
+                    background-color: white;
+                    width: 24px;
+                    height: 24px;
+                    rotate: 45deg;
+                }
+            }
+            .card-3 {
+                margin-top: 28px;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                margin-right: 70px;
+                .child {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 16px;
+                }
+            }
+            .card-4 {
+                text-align: center;
+                margin-top: 34px;
+            }
+        }
+        .row-2 {
+            margin: 30px;
+            display: flex;
+            justify-content: center;
+            gap: 100px;
+            margin-top: 170px;
+            max-width: 1100px;
+            border-radius: 6px;
+            max-height: 288px;
+            background-image: url(../images/BG\ Mask.png);
+            .card {
+                margin-left: 90px;
+                padding-top: 70px;
+            }
+            .card-2 {
+                margin-top: 50px;
+                margin-right: 300px;
+                h1 {
+                    max-width: 445px;
+                    font-weight: 800;
+                    font-size: 33px;
+                    line-height: 41px;
+                    /* or 124% */
+                    font-feature-settings: 'salt' on, 'liga' off;
+                    /* Default / White */
+                    color: #FFFFFF;
+                }
+                .form {
+                    .twodiv {
+                        padding: 58px 0;
+                        margin-top: -25px;
+                        display: flex;
+                        align-items: center;
+                        .email {
+                            padding: 14px 16px;
+                            font-weight: 400;
+                            font-size: 15px;
+                            line-height: 24px;
+                            /* identical to box height, or 160% */
+                            font-feature-settings: 'salt' on, 'liga' off;
+                            /* Text / Gray 800 */
+                            color: #474A57;
+                            background: #F4F5F7;
+                            border-radius: 5px 0px 0px 5px;
+                            border: none;
+                        }
+                        .question_button {
+                            padding: 14px 24px;
+                            font-weight: 700;
+                            font-size: 14px;
+                            line-height: 20px;
+                            /* identical to box height, or 143% */
+                            font-feature-settings: 'salt' on, 'liga' off;
+                            /* Default / White */
+                            color: #FFFFFF;
+                            background: #18191F;
+                            border-radius: 0px 5px 5px 0px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .section {
+        .container {
+            padding: 50px 0px;
+            margin-left: 40px;
+            .row {
+                .card {
+                    h1 {
+                        max-width: 245px;
+                        font-weight: 800;
+                        font-size: 27px;
+                        line-height: 40px;
+                        /* or 125% */
+                        font-feature-settings: 'salt' on, 'liga' off;
+                        /* violet */
+                        color: black;
+                        .moviy {
+                            color: #685ED6;
+                        }
+                    }
+                    p {
+                        max-width: 270px;
+                        font-weight: 400;
+                        font-size: 18px;
+                        line-height: 28px;
+                        /* or 156% */
+                        /* black */
+                        color: #1D2530;
+                        .moviy {
+                            color: #685ED6;
+                        }
+                    }
+                }
+                .card-2 {
+                    position: absolute;
+                    top: -30px;
+                    left: 246px;
+                }
+            }
+        }
+    }
+}

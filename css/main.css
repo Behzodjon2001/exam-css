@@ -1,0 +1,862 @@
+@font-face {
+  font-family: "Gilroy";
+  src: url(../fonts/Gilroy-Light.otf) format(truetype);
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url(../fonts/Gilroy-Regular.otf) format(truetype);
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url(../fonts/Gilroy-Medium.otf) format(truetype);
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url(../fonts/Gilroy-ExtraBold.otf) format(truetype);
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url(../fonts/Gilroy-Bold.otf) format(truetype);
+  font-weight: 700;
+  font-style: normal;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Gilroy", sans-serif;
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  max-width: 1280px;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+
+.header {
+  background: rgba(242, 247, 255, 0.5);
+  backdrop-filter: blur(50px);
+}
+.header .container .menu {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 751px;
+  padding: 32px 0;
+}
+.header .container .menu .menu__logo {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+.header .container .menu .menu__logo h5 {
+  font-weight: 700;
+  font-size: 28.1106px;
+  line-height: 21px;
+  /* or 75% */
+  /* black */
+  color: #1D2530;
+}
+.header .container .menu .menu__list .menu__nav .menu__ul {
+  display: flex;
+  gap: 12px;
+}
+.header .container .menu .menu__list .menu__nav .menu__ul .vixod {
+  background: #F1E4FF;
+  border-radius: 6px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height, or 125% */
+  text-align: center;
+  font-feature-settings: "salt" on, "liga" off;
+  /* violet */
+  color: #685ED6;
+  padding: 10px 20px;
+  border: none;
+}
+.header .container .menu .menu__list .menu__nav .menu__ul .register {
+  background: #685ED6;
+  /* btn sdw */
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.07);
+  border-radius: 6px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height, or 125% */
+  text-align: center;
+  font-feature-settings: "salt" on, "liga" off;
+  /* Default / White */
+  color: #FFFFFF;
+  padding: 10px 20px;
+  border: none;
+}
+
+@media screen and (max-width: 768px) {
+  .header .container .menu {
+    justify-content: space-between;
+    gap: 330px;
+  }
+  .header .container .menu h5 {
+    font-weight: 700;
+    font-size: 28.1106px;
+    line-height: 21px;
+    /* or 75% */
+    /* black */
+    color: #1D2530;
+  }
+}
+.section {
+  background: rgba(242, 247, 255, 0.5);
+  backdrop-filter: blur(50px);
+}
+.section .container {
+  padding: 100px 0px;
+  margin-left: 190px;
+}
+.section .container .row {
+  display: flex;
+  position: relative;
+}
+.section .container .row .card {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.section .container .row .card h1 {
+  max-width: 380px;
+  font-weight: 800;
+  font-size: 42px;
+  line-height: 60px;
+  /* or 120% */
+  font-feature-settings: "salt" on, "liga" off;
+  /* violet */
+  color: black;
+}
+.section .container .row .card h1 .moviy {
+  color: #685ED6;
+}
+.section .container .row .card p {
+  max-width: 482px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  /* or 142% */
+  /* black */
+  color: #1D2530;
+}
+.section .container .row .card p .moviy {
+  color: #685ED6;
+}
+.section .container .row .card .podkluchit {
+  max-width: 168px;
+  background: #685ED6;
+  /* btn sdw */
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.07);
+  border-radius: 6px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  /* identical to box height, or 133% */
+  text-align: center;
+  font-feature-settings: "salt" on, "liga" off;
+  /* Default / White */
+  color: #FFFFFF;
+  padding: 12px 32px;
+  border: none;
+}
+.section .container .row .card-2 {
+  position: absolute;
+  top: -30px;
+  left: 386px;
+}
+
+.section-2 .container .row {
+  margin-top: 250px;
+  margin-left: 50px;
+  display: flex;
+  gap: 76px;
+}
+.section-2 .container .row .card {
+  display: flex;
+  flex-direction: column;
+  gap: 49px;
+}
+.section-2 .container .row .card .child {
+  font-weight: 800;
+  font-size: 29px;
+  line-height: 32px;
+  /* identical to box height, or 67% */
+  /* black */
+  color: #1D2530;
+}
+.section-2 .container .row .card .child-2 {
+  margin-top: 20px;
+  max-width: 528px;
+  display: flex;
+  gap: 28px;
+}
+.section-2 .container .row .card .child-2 .inner-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 8px;
+}
+.section-2 .container .row .card .child-2 .inner-child h3 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+  font-feature-settings: "salt" on, "liga" off;
+  /* black */
+  color: #1D2530;
+}
+.section-2 .container .row .card .child-2 .inner-child p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+  font-feature-settings: "salt" on, "liga" off;
+  /* black */
+  color: #1D2530;
+}
+.section-2 .container .row .card .child-3 {
+  max-width: 428px;
+  display: flex;
+  gap: 28px;
+}
+.section-2 .container .row .card .child-3 .inner-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 8px;
+}
+.section-2 .container .row .card .child-3 .inner-child h3 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+  font-feature-settings: "salt" on, "liga" off;
+  /* black */
+  color: #1D2530;
+}
+.section-2 .container .row .card .child-3 .inner-child p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+  font-feature-settings: "salt" on, "liga" off;
+  /* black */
+  color: #1D2530;
+}
+
+.section-3 .container .row {
+  margin-top: 180px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 16px;
+}
+.section-3 .container .row .card h3 {
+  font-weight: 800;
+  font-size: 46px;
+  line-height: 64px;
+  /* identical to box height, or 139% */
+  text-align: center;
+  font-feature-settings: "salt" on, "liga" off;
+  /* black */
+  color: #1D2530;
+}
+.section-3 .container .row .card-2 p {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+  font-feature-settings: "salt" on, "liga" off;
+  /* black */
+  color: #1D2530;
+}
+.section-3 .container .row .card-3 {
+  display: flex;
+  justify-content: center;
+  margin-top: 24px;
+  gap: 32px;
+}
+.section-3 .container .row .card-3 .child {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  width: 350px;
+  background: #FCFEFF;
+  /* btn sdw */
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.07);
+  border-radius: 6px;
+}
+.section-3 .container .row .card-3 .child .inner0 {
+  background: rgba(104, 94, 214, 0.05);
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 48px;
+  /* identical to box height, or 200% */
+  color: #685ED6;
+}
+.section-3 .container .row .card-3 .child .probniy {
+  margin-left: 50px;
+  margin-top: 14px;
+  max-width: 263px;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 40px;
+  /* or 143% */
+  text-align: center;
+  /* black */
+  color: #1D2530;
+}
+.section-3 .container .row .card-3 .child .mesyas {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height, or 150% */
+  text-align: center;
+  /* black */
+  color: #1D2530;
+}
+.section-3 .container .row .card-3 .child .inner {
+  margin-top: 14px;
+}
+.section-3 .container .row .card-3 .child .inner .podkluchit {
+  background: #685ED6;
+  /* btn sdw */
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.07);
+  border-radius: 6px;
+  text-align: center;
+  font-feature-settings: "salt" on, "liga" off;
+  /* Default / White */
+  color: #FFFFFF;
+  padding: 12px 66px;
+  border: none;
+}
+
+.section-4 {
+  background: rgba(242, 247, 255, 0.5);
+  backdrop-filter: blur(50px);
+}
+.section-4 .container {
+  position: relative;
+}
+.section-4 .container .row .card {
+  margin-top: 100px;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 64px;
+  /* identical to box height, or 139% */
+  font-feature-settings: "salt" on, "liga" off;
+  /* black */
+  color: #1D2530;
+  text-align: center;
+}
+.section-4 .container .row .card-2 {
+  position: relative;
+  margin-left: 30px;
+  width: 1200px;
+  margin-top: 56px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 4px;
+}
+.section-4 .container .row .card-2 .child {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.section-4 .container .row .card-2 .child span {
+  text-align: center;
+  width: 72px;
+  height: 72px;
+  background: #F1E4FF;
+  border-radius: 50%;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 30px;
+  /* or 100% */
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #685ED6;
+  margin-left: 75px;
+}
+.section-4 .container .row .card-2 .child h5 {
+  margin-top: 16px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  /* identical to box height, or 156% */
+  font-feature-settings: "salt" on, "liga" off;
+  /* black */
+  color: #1D2530;
+  text-align: center;
+}
+.section-4 .container .row .card-2 .child p {
+  max-width: 476px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+  text-align: center;
+  font-feature-settings: "salt" on, "liga" off;
+  /* black */
+  color: #1D2530;
+}
+.section-4 .container .row .card-2 .child-2 {
+  position: absolute;
+  left: 483px;
+  top: 78px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.section-4 .container .row .card-2 .child-2 span {
+  text-align: center;
+  width: 72px;
+  height: 72px;
+  background: #F1E4FF;
+  border-radius: 50%;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 30px;
+  /* or 100% */
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #685ED6;
+  margin-left: 75px;
+}
+.section-4 .container .row .card-2 .child-2 h5 {
+  margin-top: 16px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  /* identical to box height, or 156% */
+  font-feature-settings: "salt" on, "liga" off;
+  /* black */
+  color: #1D2530;
+  text-align: center;
+}
+.section-4 .container .row .card-2 .child-2 p {
+  max-width: 214px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+  text-align: center;
+  font-feature-settings: "salt" on, "liga" off;
+  /* black */
+  color: #1D2530;
+}
+.section-4 .container .row .card-2 .child-3 {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-left: 760px;
+}
+.section-4 .container .row .card-2 .child-3 span {
+  text-align: center;
+  width: 72px;
+  height: 72px;
+  background: #F1E4FF;
+  border-radius: 50%;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 30px;
+  /* or 100% */
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #685ED6;
+  margin-left: 75px;
+}
+.section-4 .container .row .card-2 .child-3 h5 {
+  margin-top: 16px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  /* identical to box height, or 156% */
+  font-feature-settings: "salt" on, "liga" off;
+  /* black */
+  color: #1D2530;
+  text-align: center;
+}
+.section-4 .container .row .card-2 .child-3 p {
+  max-width: 476px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+  text-align: center;
+  font-feature-settings: "salt" on, "liga" off;
+  /* black */
+  color: #1D2530;
+}
+.section-4 .container .row .card-2 .vector-1 {
+  position: absolute;
+  left: 15.18%;
+  right: 72.49%;
+  top: 15.06%;
+  bottom: 70.63%;
+}
+.section-4 .container .row .card-2 .vector-2 {
+  position: absolute;
+  left: 33.33%;
+  right: 55.28%;
+  top: 40.83%;
+  bottom: 45.51%;
+}
+.section-4 .container .row .card-2 .vector-3 {
+  position: absolute;
+  left: 55.01%;
+  right: 32.75%;
+  top: 10.17%;
+  bottom: 51.18%;
+}
+.section-4 .container .row .card-2 .vector-4 {
+  position: absolute;
+  left: 74.44%;
+  right: 15.94%;
+  top: 28.33%;
+  bottom: 65.18%;
+}
+.section-4 .container .row .card-2 .logo-position {
+  position: absolute;
+  left: 25.8%;
+  right: 61.79%;
+  top: 21.67%;
+  bottom: 66.67%;
+}
+.section-4 .container .row .card-2 .logo-position2 {
+  position: absolute;
+  left: 64.9%;
+  right: 20.59%;
+  top: 6.93%;
+  bottom: 74.75%;
+}
+.section-4 .container .phone-position {
+  position: absolute;
+  width: 237px;
+  height: 471.83px;
+  left: 70px;
+  top: 360px;
+}
+.section-4 .container .phone-position-2 {
+  position: absolute;
+  width: 237px;
+  height: 471.83px;
+  left: 536px;
+  top: 410px;
+}
+.section-4 .container .phone-position-3 {
+  position: absolute;
+  width: 237px;
+  height: 471.83px;
+  left: 1050px;
+  top: 360px;
+}
+
+.section-5 {
+  background: rgba(242, 247, 255, 0.5);
+  margin-top: 670px;
+}
+.section-5 .container .row .card {
+  font-weight: 800;
+  font-size: 46px;
+  line-height: 64px;
+  /* identical to box height, or 139% */
+  font-feature-settings: "salt" on, "liga" off;
+  /* black */
+  color: #1D2530;
+  text-align: center;
+}
+.section-5 .container .row .card-2 {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+  margin-top: 48px;
+  border-radius: 6px;
+}
+.section-5 .container .row .card-2 .child {
+  box-shadow: 1px 1px 11px rgb(84, 78, 78);
+  padding: 32px 32px 56px 32px;
+  background: white;
+  border-radius: 6px;
+}
+.section-5 .container .row .card-2 .child h5 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  /* identical to box height, or 156% */
+  text-align: center;
+  font-feature-settings: "salt" on, "liga" off;
+  /* Text / Gray 900 */
+  color: #18191F;
+}
+.section-5 .container .row .card-2 .child p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+  text-align: center;
+  font-feature-settings: "salt" on, "liga" off;
+  /* Text / Gray 900 */
+  color: #18191F;
+}
+.section-5 .container .row .card-2 .uchburchar {
+  position: absolute;
+  left: 300px;
+  top: 200px;
+  background-color: white;
+  width: 24px;
+  height: 24px;
+  rotate: 45deg;
+}
+.section-5 .container .row .card-2 .uchburchar2 {
+  position: absolute;
+  left: 900px;
+  top: 200px;
+  background-color: white;
+  width: 24px;
+  height: 24px;
+  rotate: 45deg;
+}
+.section-5 .container .row .card-3 {
+  margin-top: 28px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 70px;
+}
+.section-5 .container .row .card-3 .child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+.section-5 .container .row .card-4 {
+  text-align: center;
+  margin-top: 34px;
+}
+.section-5 .container .row-2 {
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  margin-top: 170px;
+  max-width: 1100px;
+  border-radius: 6px;
+  max-height: 288px;
+  background-image: url(../images/BG\ Mask.png);
+}
+.section-5 .container .row-2 .card {
+  margin-left: 90px;
+  padding-top: 70px;
+}
+.section-5 .container .row-2 .card-2 {
+  margin-top: 50px;
+  margin-right: 300px;
+}
+.section-5 .container .row-2 .card-2 h1 {
+  max-width: 445px;
+  font-weight: 800;
+  font-size: 33px;
+  line-height: 41px;
+  /* or 124% */
+  font-feature-settings: "salt" on, "liga" off;
+  /* Default / White */
+  color: #FFFFFF;
+}
+.section-5 .container .row-2 .card-2 .form .twodiv {
+  padding: 58px 0;
+  margin-top: -25px;
+  display: flex;
+  align-items: center;
+}
+.section-5 .container .row-2 .card-2 .form .twodiv .email {
+  padding: 14px 16px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  /* identical to box height, or 160% */
+  font-feature-settings: "salt" on, "liga" off;
+  /* Text / Gray 800 */
+  color: #474A57;
+  background: #F4F5F7;
+  border-radius: 5px 0px 0px 5px;
+  border: none;
+}
+.section-5 .container .row-2 .card-2 .form .twodiv .question_button {
+  padding: 14px 24px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+  font-feature-settings: "salt" on, "liga" off;
+  /* Default / White */
+  color: #FFFFFF;
+  background: #18191F;
+  border-radius: 0px 5px 5px 0px;
+}
+
+@media screen and (max-width: 768px) {
+  .section .container {
+    padding: 50px 0px;
+    margin-left: 40px;
+  }
+  .section .container .row .card h1 {
+    max-width: 245px;
+    font-weight: 800;
+    font-size: 27px;
+    line-height: 40px;
+    /* or 125% */
+    font-feature-settings: "salt" on, "liga" off;
+    /* violet */
+    color: black;
+  }
+  .section .container .row .card h1 .moviy {
+    color: #685ED6;
+  }
+  .section .container .row .card p {
+    max-width: 270px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 156% */
+    /* black */
+    color: #1D2530;
+  }
+  .section .container .row .card p .moviy {
+    color: #685ED6;
+  }
+  .section .container .row .card-2 {
+    position: absolute;
+    top: -30px;
+    left: 246px;
+  }
+}
+.footer {
+  background: #1D2530;
+}
+.footer .container .row {
+  margin-left: 40px;
+  padding-top: 104px;
+  display: flex;
+  gap: 126px;
+}
+.footer .container .row .card {
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 24px;
+  /* identical to box height, or 75% */
+  /* white */
+  color: #FFFFFF;
+}
+.footer .container .row .card-2 {
+  margin-left: 392px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.footer .container .row .card-2 h1 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height, or 150% */
+  font-feature-settings: "salt" on, "liga" off;
+  /* Text / Gray 100 */
+  color: #F4F5F7;
+}
+.footer .container .row .card-2 h2 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height, or 162% */
+  font-feature-settings: "salt" on, "liga" off;
+  /* Text / Gray 200 */
+  color: #EEEFF4;
+}
+.footer .container .row .card-2 .onas {
+  margin-top: 12px;
+}
+.footer .container .row .card-3 {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.footer .container .row .card-3 h1 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height, or 150% */
+  font-feature-settings: "salt" on, "liga" off;
+  /* Text / Gray 100 */
+  color: #F4F5F7;
+}
+.footer .container .row .card-3 h2 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height, or 162% */
+  font-feature-settings: "salt" on, "liga" off;
+  /* Text / Gray 200 */
+  color: #EEEFF4;
+}
+.footer .container .row .card-3 .onas {
+  margin-top: 12px;
+}
+
+.footer-2 {
+  background: #141B23;
+}
+.footer-2 .container .row .card {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+  font-feature-settings: "salt" on, "liga" off;
+  /* Text / Gray 300 */
+  color: #D9DBE1;
+  margin-left: 30px;
+  padding: 25px;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,85 @@
+.header {
+    background: rgba(242, 247, 255, 0.5);
+    backdrop-filter: blur(50px);
+    .container {
+        .menu {
+            display: flex;
+            justify-content: space-evenly;
+            gap: 751px;
+            padding: 32px 0;
+            .menu__logo {
+                display: flex;
+                // justify-content: center;
+                align-items: center;
+                gap: 2px;
+                h5 {
+                    font-weight: 700;
+                    font-size: 28.1106px;
+                    line-height: 21px;
+                    /* or 75% */
+                    /* black */
+                    color: #1D2530;
+                }
+            }
+            .menu__list {
+                .menu__nav {
+                    .menu__ul {
+                        display: flex;
+                        gap: 12px;
+                        .vixod {
+                            background: #F1E4FF;
+                            border-radius: 6px;
+                            font-weight: 700;
+                            font-size: 16px;
+                            line-height: 20px;
+                            /* identical to box height, or 125% */
+                            text-align: center;
+                            font-feature-settings: 'salt' on, 'liga' off;
+                            /* violet */
+                            color: #685ED6;
+                            padding: 10px 20px;
+                            border: none;
+                        }
+                        .register {
+                            background: #685ED6;
+                            /* btn sdw */
+                            box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.07);
+                            border-radius: 6px;
+                            font-weight: 700;
+                            font-size: 16px;
+                            line-height: 20px;
+                            /* identical to box height, or 125% */
+                            text-align: center;
+                            font-feature-settings: 'salt' on, 'liga' off;
+                            /* Default / White */
+                            color: #FFFFFF;
+                            padding: 10px 20px;
+                            border: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        .container {
+            .menu {
+                justify-content: space-between;
+                gap: 330px;
+                h5 {
+                    font-weight: 700;
+                    font-size: 28.1106px;
+                    line-height: 21px;
+                    /* or 75% */
+                    /* black */
+                    color: #1D2530;
+                }
+                .menu__logo {}
+                .menu__list {}
+            }
+        }
+    }
+}
