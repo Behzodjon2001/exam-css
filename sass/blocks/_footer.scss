@@ -4,68 +4,73 @@
         .row {
             margin-left: 40px;
             padding-top: 104px;
-            display: flex;
-            gap: 126px;
-            .card {
-                font-weight: 700;
-                font-size: 13px;
-                line-height: 24px;
-                /* identical to box height, or 75% */
-                /* white */
-                color: #FFFFFF;
-            }
-            .card-2 {
-                margin-left: 392px;
+            .unhiiden {
                 display: flex;
-                flex-direction: column;
-                gap: 12px;
-                h1 {
-                    font-weight: 500;
-                    font-size: 20px;
-                    line-height: 30px;
-                    /* identical to box height, or 150% */
-                    font-feature-settings: 'salt' on, 'liga' off;
-                    /* Text / Gray 100 */
-                    color: #F4F5F7;
+                gap: 126px;
+                .card {
+                    font-weight: 700;
+                    font-size: 13px;
+                    line-height: 24px;
+                    /* identical to box height, or 75% */
+                    /* white */
+                    color: #FFFFFF;
                 }
-                h2 {
-                    font-weight: 400;
-                    font-size: 16px;
-                    line-height: 26px;
-                    /* identical to box height, or 162% */
-                    font-feature-settings: 'salt' on, 'liga' off;
-                    /* Text / Gray 200 */
-                    color: #EEEFF4;
+                .card-2 {
+                    margin-left: 392px;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 12px;
+                    h1 {
+                        font-weight: 500;
+                        font-size: 20px;
+                        line-height: 30px;
+                        /* identical to box height, or 150% */
+                        font-feature-settings: 'salt' on, 'liga' off;
+                        /* Text / Gray 100 */
+                        color: #F4F5F7;
+                    }
+                    h2 {
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 26px;
+                        /* identical to box height, or 162% */
+                        font-feature-settings: 'salt' on, 'liga' off;
+                        /* Text / Gray 200 */
+                        color: #EEEFF4;
+                    }
+                    .onas {
+                        margin-top: 12px;
+                    }
                 }
-                .onas {
-                    margin-top: 12px;
+                .card-3 {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 12px;
+                    h1 {
+                        font-weight: 500;
+                        font-size: 20px;
+                        line-height: 30px;
+                        /* identical to box height, or 150% */
+                        font-feature-settings: 'salt' on, 'liga' off;
+                        /* Text / Gray 100 */
+                        color: #F4F5F7;
+                    }
+                    h2 {
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 26px;
+                        /* identical to box height, or 162% */
+                        font-feature-settings: 'salt' on, 'liga' off;
+                        /* Text / Gray 200 */
+                        color: #EEEFF4;
+                    }
+                    .onas {
+                        margin-top: 12px;
+                    }
                 }
             }
-            .card-3 {
-                display: flex;
-                flex-direction: column;
-                gap: 12px;
-                h1 {
-                    font-weight: 500;
-                    font-size: 20px;
-                    line-height: 30px;
-                    /* identical to box height, or 150% */
-                    font-feature-settings: 'salt' on, 'liga' off;
-                    /* Text / Gray 100 */
-                    color: #F4F5F7;
-                }
-                h2 {
-                    font-weight: 400;
-                    font-size: 16px;
-                    line-height: 26px;
-                    /* identical to box height, or 162% */
-                    font-feature-settings: 'salt' on, 'liga' off;
-                    /* Text / Gray 200 */
-                    color: #EEEFF4;
-                }
-                .onas {
-                    margin-top: 12px;
-                }
+            .hidden {
+                display: none;
             }
         }
     }
@@ -109,8 +114,103 @@
     .footer-2 {
         .container {
             .row {
+                .unhiiden {
+                    .card {
+                        margin-left: 0px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .footer {
+        .container {
+            .row {
+                .unhiiden {
+                    display: none;
+                }
+                .hidden {
+                    display: flex;
+                    gap: 40px;
+                    .card {
+                        font-weight: 700;
+                        font-size: 13px;
+                        line-height: 24px;
+                        /* identical to box height, or 75% */
+                        /* white */
+                        color: #FFFFFF;
+                    }
+                    .flexfoo {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: flex-start;
+                        gap: 20px;
+                        .card-2 {
+                            margin-left: 6px;
+                            display: flex;
+                            flex-direction: column;
+                            gap: 12px;
+                            h1 {
+                                font-weight: 500;
+                                font-size: 20px;
+                                line-height: 30px;
+                                /* identical to box height, or 150% */
+                                font-feature-settings: 'salt' on, 'liga' off;
+                                /* Text / Gray 100 */
+                                color: #F4F5F7;
+                            }
+                            h2 {
+                                font-weight: 400;
+                                font-size: 16px;
+                                line-height: 26px;
+                                /* identical to box height, or 162% */
+                                font-feature-settings: 'salt' on, 'liga' off;
+                                /* Text / Gray 200 */
+                                color: #EEEFF4;
+                            }
+                            .onas {
+                                margin-top: 12px;
+                            }
+                        }
+                        .card-3 {
+                            display: flex;
+                            flex-direction: column;
+                            gap: 12px;
+                            h1 {
+                                font-weight: 500;
+                                font-size: 20px;
+                                line-height: 30px;
+                                /* identical to box height, or 150% */
+                                font-feature-settings: 'salt' on, 'liga' off;
+                                /* Text / Gray 100 */
+                                color: #F4F5F7;
+                            }
+                            h2 {
+                                font-weight: 400;
+                                font-size: 16px;
+                                line-height: 26px;
+                                /* identical to box height, or 162% */
+                                font-feature-settings: 'salt' on, 'liga' off;
+                                /* Text / Gray 200 */
+                                color: #EEEFF4;
+                            }
+                            .onas {
+                                margin-top: 12px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .footer-2 {
+        .container {
+            .row {
                 .card {
-                    margin-left: 0px;
+                    margin-left: 10px;
                 }
             }
         }

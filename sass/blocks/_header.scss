@@ -22,6 +22,9 @@
                 }
             }
             .menu__list {
+                .hamberger {
+                    display: none;
+                }
                 .menu__nav {
                     .menu__ul {
                         display: flex;
@@ -67,8 +70,9 @@
     .header {
         .container {
             .menu {
-                justify-content: space-between;
-                gap: 370px;
+                justify-content: space-evenly;
+                gap: 235px;
+                margin-right: 20px;
                 h5 {
                     font-weight: 700;
                     font-size: 28.1106px;
@@ -79,6 +83,26 @@
                 }
                 .menu__logo {}
                 .menu__list {}
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .header {
+        .container {
+            .menu {
+                .menu__list {
+                    .hamberger {
+                        display: flex;
+                    }
+                    .vixod {
+                        display: none;
+                    }
+                    .register {
+                        display: none;
+                    }
+                }
             }
         }
     }

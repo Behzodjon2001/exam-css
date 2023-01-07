@@ -87,6 +87,9 @@ img {
   /* black */
   color: #1D2530;
 }
+.header .container .menu .menu__list .hamberger {
+  display: none;
+}
 .header .container .menu .menu__list .menu__nav .menu__ul {
   display: flex;
   gap: 12px;
@@ -124,8 +127,9 @@ img {
 
 @media screen and (max-width: 768px) {
   .header .container .menu {
-    justify-content: space-between;
-    gap: 370px;
+    justify-content: space-evenly;
+    gap: 235px;
+    margin-right: 20px;
   }
   .header .container .menu h5 {
     font-weight: 700;
@@ -134,6 +138,17 @@ img {
     /* or 75% */
     /* black */
     color: #1D2530;
+  }
+}
+@media screen and (max-width: 480px) {
+  .header .container .menu .menu__list .hamberger {
+    display: flex;
+  }
+  .header .container .menu .menu__list .vixod {
+    display: none;
+  }
+  .header .container .menu .menu__list .register {
+    display: none;
   }
 }
 .section {
@@ -749,6 +764,9 @@ img {
 }
 
 @media screen and (max-width: 768px) {
+  main {
+    overflow: hidden;
+  }
   .section .container {
     padding: 50px 0px;
     margin-left: 40px;
@@ -867,6 +885,9 @@ img {
     font-feature-settings: "salt" on, "liga" off;
     /* black */
     color: #1D2530;
+  }
+  .section-3 .container .row .card-3 {
+    overflow-x: scroll;
   }
   .section-4 .container .row .card {
     font-weight: 800;
@@ -987,16 +1008,62 @@ img {
     border-radius: 0px 5px 5px 0px;
   }
 }
+@media screen and (max-width: 480px) {
+  main {
+    overflow: hidden;
+  }
+  .section .container .row .card-2 {
+    position: absolute;
+    top: 390px;
+    left: 0px;
+  }
+  .section-2 .container .row {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin-top: 450px;
+  }
+  .section-3 .container .row .card-3 {
+    max-width: 680px;
+    margin-top: 40px;
+    overflow-x: scroll;
+    margin: 0px auto;
+    overflow-x: scroll;
+    padding: 10px;
+    box-shadow: 0px 0px 10px #ccc;
+  }
+  .section-4 .container .row .card-2 {
+    overflow-x: scroll;
+  }
+  .section-5 .container .row-2 {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    max-height: 788px;
+  }
+  .section-5 .container .row-2 .card {
+    margin-left: 60px;
+  }
+  .section-5 .container .row-2 .card img {
+    max-width: 369px;
+  }
+  .section-5 .container .row-2 .card-2 {
+    margin-left: 25px;
+  }
+}
 .footer {
   background: #1D2530;
 }
 .footer .container .row {
   margin-left: 40px;
   padding-top: 104px;
+}
+.footer .container .row .unhiiden {
   display: flex;
   gap: 126px;
 }
-.footer .container .row .card {
+.footer .container .row .unhiiden .card {
   font-weight: 700;
   font-size: 13px;
   line-height: 24px;
@@ -1004,13 +1071,13 @@ img {
   /* white */
   color: #FFFFFF;
 }
-.footer .container .row .card-2 {
+.footer .container .row .unhiiden .card-2 {
   margin-left: 392px;
   display: flex;
   flex-direction: column;
   gap: 12px;
 }
-.footer .container .row .card-2 h1 {
+.footer .container .row .unhiiden .card-2 h1 {
   font-weight: 500;
   font-size: 20px;
   line-height: 30px;
@@ -1019,7 +1086,7 @@ img {
   /* Text / Gray 100 */
   color: #F4F5F7;
 }
-.footer .container .row .card-2 h2 {
+.footer .container .row .unhiiden .card-2 h2 {
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
@@ -1028,15 +1095,15 @@ img {
   /* Text / Gray 200 */
   color: #EEEFF4;
 }
-.footer .container .row .card-2 .onas {
+.footer .container .row .unhiiden .card-2 .onas {
   margin-top: 12px;
 }
-.footer .container .row .card-3 {
+.footer .container .row .unhiiden .card-3 {
   display: flex;
   flex-direction: column;
   gap: 12px;
 }
-.footer .container .row .card-3 h1 {
+.footer .container .row .unhiiden .card-3 h1 {
   font-weight: 500;
   font-size: 20px;
   line-height: 30px;
@@ -1045,7 +1112,7 @@ img {
   /* Text / Gray 100 */
   color: #F4F5F7;
 }
-.footer .container .row .card-3 h2 {
+.footer .container .row .unhiiden .card-3 h2 {
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
@@ -1054,8 +1121,11 @@ img {
   /* Text / Gray 200 */
   color: #EEEFF4;
 }
-.footer .container .row .card-3 .onas {
+.footer .container .row .unhiiden .card-3 .onas {
   margin-top: 12px;
+}
+.footer .container .row .hidden {
+  display: none;
 }
 
 .footer-2 {
@@ -1085,7 +1155,87 @@ img {
   .footer .container .row .card-2 {
     margin-left: 155px;
   }
-  .footer-2 .container .row .card {
+  .footer-2 .container .row .unhiiden .card {
     margin-left: 0px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .footer .container .row .unhiiden {
+    display: none;
+  }
+  .footer .container .row .hidden {
+    display: flex;
+    gap: 40px;
+  }
+  .footer .container .row .hidden .card {
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 24px;
+    /* identical to box height, or 75% */
+    /* white */
+    color: #FFFFFF;
+  }
+  .footer .container .row .hidden .flexfoo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+  }
+  .footer .container .row .hidden .flexfoo .card-2 {
+    margin-left: 6px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .footer .container .row .hidden .flexfoo .card-2 h1 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height, or 150% */
+    font-feature-settings: "salt" on, "liga" off;
+    /* Text / Gray 100 */
+    color: #F4F5F7;
+  }
+  .footer .container .row .hidden .flexfoo .card-2 h2 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+    font-feature-settings: "salt" on, "liga" off;
+    /* Text / Gray 200 */
+    color: #EEEFF4;
+  }
+  .footer .container .row .hidden .flexfoo .card-2 .onas {
+    margin-top: 12px;
+  }
+  .footer .container .row .hidden .flexfoo .card-3 {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .footer .container .row .hidden .flexfoo .card-3 h1 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height, or 150% */
+    font-feature-settings: "salt" on, "liga" off;
+    /* Text / Gray 100 */
+    color: #F4F5F7;
+  }
+  .footer .container .row .hidden .flexfoo .card-3 h2 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+    font-feature-settings: "salt" on, "liga" off;
+    /* Text / Gray 200 */
+    color: #EEEFF4;
+  }
+  .footer .container .row .hidden .flexfoo .card-3 .onas {
+    margin-top: 12px;
+  }
+  .footer-2 .container .row .card {
+    margin-left: 10px;
   }
 }/*# sourceMappingURL=main.css.map */
